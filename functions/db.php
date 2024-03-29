@@ -21,8 +21,6 @@ if(!$conn){
     logsummary("<b>🛑 Плохое подключение к БД!\n\n".json_encode($config['db'])."</b>");
 }
 
-////////////////////////////////////////////
-
 function fetchUser($userID){
     global $conn;
     $dataf = mysqli_query($conn,"SELECT * FROM users WHERE userid='$userID'");
