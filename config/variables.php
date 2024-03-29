@@ -34,15 +34,4 @@ $callbackuserid = $update->callback_query->message->reply_to_message->from->id;
 
 $callbackmessageid = $update->callback_query->message->message_id;
 
-
-$live_array = array(
-    'incorrect_cvc', 
-    '"cvc_check": "fail"', 
-    '"cvc_check": "pass"', 
-    'insufficient_funds',
-    'Your card does not support this type of purchase',
-    'transaction_not_allowed',
-    'CVV INVALID'
-);
-
 ?>
