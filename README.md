@@ -1,7 +1,7 @@
 ## PHP Telegram Bot for servers Killing Floor - EN
 
-A regular bot that monitors how many players are on the server, what map and what players are playing
+A bot that monitors how many players are on the server, on what map and what the players are playing.
 
 ## Телеграм бот на php для серверов Killing Floor - RU
 
-Обычный бот, который мониторит сколько игроков на сервере, какая карта и какие игроки играют
+Бот, который следит за тем, сколько игроков на сервере, на какой карте и во что играют игроки
