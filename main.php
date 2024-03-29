@@ -12,9 +12,6 @@
     include __DIR__."/modules/checker/servers.php";
     include __DIR__."/modules/checker/kf.php";
 
-
-    //////////////===[START]===//////////////
-
     if(strpos($message, "/start") === 0){
         addUser($userId);
         bot('sendmessage',[
