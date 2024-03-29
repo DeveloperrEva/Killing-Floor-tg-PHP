@@ -8,7 +8,6 @@
 
     date_default_timezone_set($config['timeZone']);
 
-    ////Modules
     include __DIR__."/modules/admin.php";
     include __DIR__."/modules/checker/servers.php";
     include __DIR__."/modules/checker/kf.php";
